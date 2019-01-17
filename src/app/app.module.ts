@@ -1,9 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
 import { AppComponent } from './app.component';
 import { ModalComponent } from './modal/modal.component';
+import { ModalService } from './modal/modal.service';
 
 
 @NgModule({
@@ -14,7 +14,7 @@ import { ModalComponent } from './modal/modal.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ModalService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
