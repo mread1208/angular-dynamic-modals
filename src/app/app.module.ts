@@ -15,6 +15,7 @@ import { ModalService } from './modal/modal.service';
     BrowserModule
   ],
   providers: [ModalService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [ModalComponent]
 })
 export class AppModule { }
